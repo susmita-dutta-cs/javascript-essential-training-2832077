@@ -16,3 +16,7 @@ const everydayPack = new Backpack(
 
 console.log("The everydayPack object:", everydayPack);
 console.log("The pocketNum value:", everydayPack.pocketNum);
+
+// everydayPack.pocketNum(10);
+
+console.log("The new pocketNum value:", everydayPack.pocketNum);

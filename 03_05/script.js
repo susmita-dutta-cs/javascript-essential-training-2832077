@@ -20,3 +20,25 @@ const backpack = {
     this.strapLength.right = lengthRight;
   },
 };
+
+console.log("The backpack object :", backpack);
+
+/**
+ * Creating a vehicle as object
+ */
+
+const vehicle = {
+  name: " four wheeler",
+  size: 4.2,
+  color: "red",
+  noWheels: 4,
+};
+
+console.log("The vehicle object :", vehicle);
+console.log("The pocketNum value :", backpack.pocketNum);
+console.log("Strap length L before:", backpack.strapLength.left);
+console.log("Strap length R before:", backpack.strapLength.right);
+
+backpack.newStrapLength(10, 15);
+
+console.log("Strap length left:", backpack.strapLength.left);
