@@ -1,6 +1,6 @@
 /**
  * Solution: Create a new object type
- * 
+ *
  * - Create a new object type "Book" using a class or an object constructor function.
  * - Add at least 5 book objects.
  */
@@ -54,7 +54,7 @@ const techVirtues = new Book(
   309,
   138,
   "Reading"
-)
+);
 console.log(techVirtues);
 
 const poohPhil = new Book(
@@ -65,7 +65,7 @@ const poohPhil = new Book(
   192,
   108,
   "Reading"
-)
+);
 console.log(poohPhil);
 
 const zen = new Book(
@@ -76,5 +76,16 @@ const zen = new Book(
   449,
   449,
   "Finished"
-)
+);
 console.log(zen);
+
+const glassPalace = new Book(
+  "The Glass Palace",
+  "Amitabh Gosh",
+  9780060958001,
+  "2001",
+  109,
+  409,
+  "waiting to Read"
+);
+console.log(glassPalace);
